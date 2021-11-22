@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="UTF-8">
+            <title>PHOTO GALLERY</title>
+            <style>
+                .cards{
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: flex-start;
+                    flex-direction: row;
+                    max-height: 100vh;
+                }
+
+                .cards img {
+                    margin: 10px;
+                    border: 3px solid #000;
+                    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3);
+                    max-width: 23vw;    
+                }
+            </style>
+    </head>
+    <body>
+        <photo class="cards">
+            <img src="1.jpg" alt="Sample Photo">
+            <img src="2.jpg" alt="Sample Photo">
+            <img src="3.jpg" alt="Sample Photo">
+            <img src="4.jpg" alt="Sample Photo">
+        </photo>
+    </body>
+</html>
